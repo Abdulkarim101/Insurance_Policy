@@ -1,0 +1,15 @@
+server: 
+  port: 8080
+  
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/Insurance_Policy
+    username: root
+    password: root     
+  jpa:
+    properties:
+      hibernate:
+        show_sql: false
+        format_sql: false
+    database-platform: org.hibernate.dialect.MySQLDialect  
